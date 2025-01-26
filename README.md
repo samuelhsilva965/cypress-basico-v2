@@ -1,29 +1,26 @@
-# Testes automatizados com Cypress - Básico
+# Cypress Test Suite
 
-👋 Seja bem-vindo(a)!
+## Visão Geral
+Este repositório contém os testes de ponta a ponta para o projeto CAC TAT utilizando Cypress.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+## Requisitos
+- Node.js (versão >= 20.18.0)
+- Cypress (versão >= 13.15.0)
 
-## O que você vai aprender
+## Instalação
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/samuelhsilva965/cypress-basico-v2
+   cd projeto-cypress
+   ```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
-
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar _upload_ de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-
-## Vamos começar?
-
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
-
-___
-
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+## Como executar os testes
+### Desktop
+Run `npm test` (or `npm t` pa)
+### Modo interativo:
+```bash
+npm run cy:open
